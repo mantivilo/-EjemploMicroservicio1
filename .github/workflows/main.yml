@@ -42,7 +42,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1  # Cambia a tu región
           aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}  # Añadido aquí
-# Paso 5.5: 
+    # Paso 5.5: 
       - name: Add SSH Key
         run: |
           mkdir -p ~/.ssh
